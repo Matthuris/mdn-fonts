@@ -1,0 +1,46 @@
+/* General setup */
+@font-face {
+  font-family: "alex_brushregular";
+  src: url("mdn-font-kits/alexbrush-regular-webfont.woff2") format("woff2"),
+    url("mdn-font-kits/alexbrush-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "latolight";
+  src: url("mdn-font-kits/lato-light-webfont.woff2") format("woff2"),
+    url("mdn-font-kits/lato-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-family: alex_brushRegular, serif;
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-family: alex_brushRegular, serif;
+  font-size: 2.4rem;
+}
+
+p {
+  font-family: latolight, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}

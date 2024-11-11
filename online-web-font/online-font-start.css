@@ -16,13 +16,17 @@ body {
 
 h1 {
   font-size: 3.2rem;
+  font-family: "Doto", sans-serif;
 }
 
 h2 {
   font-size: 2.4rem;
+  font-family: "Doto", sans-serif;
 }
 
 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 1.4rem;
   line-height: 1.6;
   word-spacing: 0.6rem;
